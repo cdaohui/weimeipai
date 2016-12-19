@@ -15,6 +15,7 @@ class mainViewController: UIViewController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
+        //傻逼
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         self.view.backgroundColor = .white
         let camerabtn:UIButton = UIButton()
@@ -28,6 +29,7 @@ class mainViewController: UIViewController {
         camerabtn.addTarget(self, action: #selector(camerBtnClick), for: .touchUpInside)
         
     }
+
     
 }
 extension mainViewController{
